@@ -1,0 +1,21 @@
+body{
+    background-color: #F0FFFF;
+    font-family: Helvetica;
+    font-size: 100%;
+    text-align: center;
+}
+
+#header{
+    font-size: clamp(1vw, 3vw, 5vw);
+}
+
+p, #userText, #searchButton{
+    font-size: clamp(0.5vw, 1.5vw, 2.5vw);
+}
+
+#img{
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10vw;
+}
